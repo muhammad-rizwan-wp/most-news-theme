@@ -27,7 +27,7 @@ function mn_register_news_cpt(){
                 'comments',
             ]
         ]
-     )
+     );
 }
 
 add_action('init', 'mn_register_news_cpt');

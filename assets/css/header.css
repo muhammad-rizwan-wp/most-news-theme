@@ -1,0 +1,42 @@
+/* Sticky Header */
+.mn-sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+}
+
+/* Breaking News */
+.mn-breaking-news {
+    background: #d62828;
+    color: #fff;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.mn-breaking-news .label {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.mn-breaking-news a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+/* Header Layouts */
+.mn-header-classic .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mn-header-centered {
+    text-align: center;
+}
+
+.mn-header-minimal {
+    display: flex;
+    justify-content: space-between;
+}

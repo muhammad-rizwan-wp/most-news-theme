@@ -7,29 +7,13 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <header class="site-header">
-        <div class="container">
 
-            <!-- LOGO -->
-            <div class="site-logo">
-                <?php 
-                    if(has_custom_logo(  )) {
-                        the_custom_logo(  );
-                    } else {
-                        bloginfo( 'name' );
-                    }
-                ?>
-            </div>
-
-            <!-- MAIN MENU -->
-            <nav class="main-navigation">
-                <?php 
-                    wp_nav_menu( [
-                        'theme_location'    => 'primary',
-                        'container'         => false,
-                        'fallback_cb'       => false,
-                    ] );
-                ?>
-            </nav>
-        </div>
-    </header>
+    <?php 
+        $header_layout = mn_get_header_layout();
+        $sticky_class = mn_is_sticky_header() ? 'mn-sticky-header' : '';
+    ?>
+    <header class="site-header <?php echo esc_attr( $sticky_class ); ?>">
+        <?php 
+            get_template_part( 'template-parts/header/header', $header_layout );
+        ?>
+    </header> 

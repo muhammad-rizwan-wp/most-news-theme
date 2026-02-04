@@ -16,7 +16,7 @@ function mn_theme_setup() {
         'flex-width' => true,
     ] );
     add_theme_support( 'custom-header' );
-    add_theme_support( 'custom-backgroun' );
+    add_theme_support( 'custom-background' );
     add_theme_support('html5', [
         'search-form', 
         'comment-form', 
@@ -26,11 +26,11 @@ function mn_theme_setup() {
     ]
     );
 
-    register_nav_menu( [
+    register_nav_menus( [
         'primary' => __('Primary Menu', 'most-news'),
         'secondary' => __('Top Menu', 'most-news'),
         'footer' => __('Footer Menu', 'most-news'),
-    ] )
+    ] );
 
 }
 

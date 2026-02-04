@@ -16,7 +16,9 @@ define('MN_THEME_URI', get_template_directory_uri());
 --------------------------------------------------------------*/
 
 require_once MN_THEME_DIR . '/inc/setup.php';
-
-/*--------------------------------------------------------------
->>> THEME SUPORTS
---------------------------------------------------------------*/
+require_once MN_THEME_DIR . '/inc/enqueue.php';
+require_once MN_THEME_DIR . '/inc/customizer.php';
+require_once MN_THEME_DIR . '/inc/post-types.php';
+require_once MN_THEME_DIR . '/inc/widgets.php';
+require_once MN_THEME_DIR . '/inc/template-tags.php';
+require_once MN_THEME_DIR . '/inc/header.php';
