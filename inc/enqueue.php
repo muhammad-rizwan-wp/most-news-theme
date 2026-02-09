@@ -21,6 +21,13 @@ function mn_enqueue_assets() {
         '1.0.0'
     );
 
+    wp_enqueue_style(
+        'mn-homepage-css',
+        MN_THEME_URI . '/assets/css/homepage.css',
+        [],
+        '1.0'
+    );
+
     wp_enqueue_script( 
         'mm-main-js',
         MN_THEME_URI . '/assets/js/main.js',
