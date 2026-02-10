@@ -23,3 +23,5 @@ require_once MN_THEME_DIR . '/inc/widgets.php';
 require_once MN_THEME_DIR . '/inc/template-tags.php';
 require_once MN_THEME_DIR . '/inc/header.php';
 require_once MN_THEME_DIR . '/inc/homepage.php';
+require_once MN_THEME_DIR . '/inc/single-post.php';
+require_once MN_THEME_DIR . '/inc/categories.php';
