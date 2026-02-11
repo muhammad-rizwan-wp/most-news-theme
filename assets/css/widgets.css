@@ -1,0 +1,15 @@
+.mn-trending-posts ul,
+.mn-popular-posts ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.mn-trending-posts li,
+.mn-popular-posts li {
+    margin-bottom: 10px;
+}
+
+.mn-ad {
+    margin: 20px 0;
+    text-align: center;
+}

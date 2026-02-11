@@ -1,0 +1,41 @@
+button.mn-dark-mode-toggle {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid #000;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+body.mn-dark-mode {
+    background-color: #121212;
+    color: #eee;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mn-dark-mode a {
+    color: #1e90ff;
+}
+
+.mn-dark-mode .site-header,
+.mn-dark-mode .site-footer {
+    background-color: #1b1b1b;
+    color: #eee;
+}
+
+.mn-dark-mode .mn-article {
+    background-color: #1a1a1a;
+    color: #ddd;
+}
+
+.mn-dark-mode .widget {
+    background-color: #1b1b1b;
+    color: #ddd;
+}
+
+.mn-dark-mode button,
+.mn-dark-mode input,
+.mn-dark-mode select {
+    background-color: #2a2a2a;
+    color: #eee;
+}

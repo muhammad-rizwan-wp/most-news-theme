@@ -23,5 +23,7 @@
                     ] );
                 ?>
             </nav>
+
+            <button class="mn-dark-mode-toggle">🌙</button>
         </div>
 </div>
