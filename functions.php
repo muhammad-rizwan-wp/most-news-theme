@@ -25,3 +25,7 @@ require_once MN_THEME_DIR . '/inc/header.php';
 require_once MN_THEME_DIR . '/inc/homepage.php';
 require_once MN_THEME_DIR . '/inc/single-post.php';
 require_once MN_THEME_DIR . '/inc/categories.php';
+require_once MN_THEME_DIR . '/inc/mega-menu.php';
+require_once MN_THEME_DIR . '/inc/ads.php';
+require_once MN_THEME_DIR . '/inc/seo.php';
+require_once get_template_directory() . '/template-parts/breadcrumbs/breadcrumbs.php';

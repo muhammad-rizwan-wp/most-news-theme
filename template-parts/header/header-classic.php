@@ -26,4 +26,6 @@
 
             <button class="mn-dark-mode-toggle">🌙</button>
         </div>
+
+        <?php get_template_part('template-parts/ads/ad', 'header'); ?>
 </div>

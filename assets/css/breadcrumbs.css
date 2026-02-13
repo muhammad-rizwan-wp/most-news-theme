@@ -1,0 +1,17 @@
+.mn-breadcrumbs {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.mn-breadcrumbs a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.mn-breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.mn-breadcrumbs span {
+    color: #555;
+}

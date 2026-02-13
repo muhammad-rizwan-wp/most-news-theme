@@ -13,6 +13,9 @@
                     ?>
                 </nav>
             </div>
+            <div class="container">
+                <?php get_template_part('template-parts/ads/ad', 'footer'); ?>
+            </div>
         </footer>
         <?php wp_footer(); ?>
     </body>

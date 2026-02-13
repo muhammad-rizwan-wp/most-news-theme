@@ -56,6 +56,27 @@ function mn_enqueue_assets() {
         '1.0'
     );
 
+    wp_enqueue_style(
+        'mn-mega-menu-css',
+        MN_THEME_URI . '/assets/css/mega-menu.css',
+        [],
+        '1.0'
+    );
+
+    wp_enqueue_style(
+        'mn-ads-css',
+        MN_THEME_URI . '/assets/css/ads.css',
+        [],
+        '1.0'
+    );
+
+    wp_enqueue_style(
+        'mn-breadcrumbs-css',
+        MN_THEME_URI . '/assets/css/breadcrumbs.css',
+        [],
+        '1.0'
+    );
+
     wp_enqueue_script( 
         'mm-main-js',
         MN_THEME_URI . '/assets/js/main.js',
@@ -82,6 +103,14 @@ function mn_enqueue_assets() {
     wp_enqueue_script(
         'mn-dark-mode-js',
         MN_THEME_URI . '/assets/js/dark-mode.js',
+        [],
+        '1.0',
+        true
+    );
+
+    wp_enqueue_script(
+        'mn-mega-menu-js',
+        MN_THEME_URI . '/assets/js/mega-menu.js',
         [],
         '1.0',
         true

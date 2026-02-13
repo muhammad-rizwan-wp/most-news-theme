@@ -32,6 +32,10 @@
         <?php endif;
     ?>
 
+    <?php
+        mn_breadcrumbs();
+    ?>
+
     <!-- Content -->
     <div class="mn-post-content">
         <?php the_content(); ?>

@@ -1,0 +1,22 @@
+.mn-ad {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.mn-ad-header {
+    background: #f5f5f5;
+    padding: 10px 0;
+}
+
+.mn-ad-sidebar {
+    margin: 20px 0;
+}
+
+.mn-ad-footer {
+    background: #f5f5f5;
+    padding: 10px 0;
+}
+
+.mn-dark-mode .mn-ad {
+    background: #121212;
+}
